@@ -1,0 +1,12 @@
+.project-list-container {
+    width: 15%;
+    z-index: 0;
+}
+
+.project-img-container {
+    width: 100%;
+}
+
+.project-img-container img {
+    width: 100%;
+}
