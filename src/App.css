@@ -2,17 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   height: 100vh;
   width: 100vw;
+  /* background: linear-gradient(
+  135deg,
+    rgb(192, 203, 211),
+    rgb(82, 146, 195)
+  ); */
   background: linear-gradient(
   135deg,
     rgb(192, 203, 211),
     /* rgb(164, 185, 218), */
-    rgb(82, 146, 195)
+    rgb(212, 218, 223)
   );
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 #tsparticles {

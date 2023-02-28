@@ -38,10 +38,7 @@ export default function ParticlesComponent() {
               },
               onHover: {
                 enable: true,
-                mode: "attract",
-                color: {
-                  value: "#ffffff",
-                },
+                mode: "none",
               },
               resize: true,
             },
@@ -61,14 +58,14 @@ export default function ParticlesComponent() {
                 distance: 83.91608391608392,
                 // size: 20,
                 duration: 3,
-                color: "#000000",
+                color: "#ffffff",
                 speed: 3,
               },
             },
           },
           particles: {
             color: {
-              value: "#090909",
+              value: "#707070",
             },
             links: {
               color: "#000000",
@@ -84,7 +81,7 @@ export default function ParticlesComponent() {
               direction: "right",
               enable: true,
               outModes: {
-                // default: "bounce",
+              // default: "bounce",
               },
               random: true,
               speed: 1,
