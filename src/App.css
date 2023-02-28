@@ -22,6 +22,12 @@ body {
   overflow: hidden;
 }
 
+header {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+}
+
 main {
   display: flex;
   justify-content: center;

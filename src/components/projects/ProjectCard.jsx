@@ -9,7 +9,7 @@ console.log(project)
           <strong>{title}</strong>
         </h3>
       <div className="project-img-container">
-        <img src={image} alt="Avatar" />
+        <img src={image} alt="project-image" />
       </div>
       {/* <div class="card-container">
         
