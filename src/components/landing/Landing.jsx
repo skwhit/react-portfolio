@@ -11,8 +11,8 @@ export default function Landing() {
     { id: "d", title: "Certifications", faClass:"fa-2x fa-solid fa-stamp" },
     { id: "e", title: "Codepen", faClass:"fa-2x fa-brands fa-codepen" },
     { id: "f", title: "Resume", faClass:"fa-2x fa-solid fa-file" },
-    { id: "g", title: "Github", faClass:"fa-2x fa-brands fa-github" },
-    { id: "h", title: "Github", faClass:"fa-2x fa-brands fa-github" },
+    { id: "g", title: "Projects", faClass:"fa-2x fa-solid fa-list-check" },
+    { id: "h", title: "Skills", faClass:"fa-2x fa-solid fa-lightbulb" },
   ];
 
   return (

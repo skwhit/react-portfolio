@@ -21,6 +21,7 @@
   object-fit: contain;
   object-position: center;
   position: absolute;
+  /* background: linear-gradient(135deg, rgb(223, 230, 232) 30%, rgb(58, 93, 157)) ; */
 }
 
 .author-container img {
@@ -28,11 +29,12 @@
   object-fit: contain;
   height: 100%;
   width: 100%;
-  border: 2px solid black;
-  animation: 2s fade-in ease-in;
-  animation-delay: 1s;
-  visibility: hidden;
+  /* border: 2px solid black; */
+  /* animation: 2s fade-in ease-in; */
+  /* animation-delay: 1s; */
+  /* visibility: hidden; */
   animation-fill-mode: forwards;
+  opacity: 1;
 }
 
 @keyframes fade-in {
