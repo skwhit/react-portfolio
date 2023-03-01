@@ -1,12 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function ProjectCard({ project }) {
+function ProjectCard({ project, setProject }) {
 console.log(project)
   const { title, description, link, image, github } = project;
+  // const navigate = useNavigate();
   return (
-    <div>
+    <div className="project-card" onClick={setProject(project)}>
         <h3>
-          <strong>{title}</strong>
+          {title}
         </h3>
       <div className="project-img-container">
         <img src={image} alt="project-image" />

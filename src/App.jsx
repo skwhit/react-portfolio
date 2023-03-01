@@ -1,4 +1,3 @@
-import Particles from "./components/particles";
 import "./App.css";
 import Projects from "./components/projects/Projects";
 import Landing from "./components/landing/Landing";
@@ -13,7 +12,6 @@ function App() {
       <header>
         <Navbar/>
       </header>
-      <Particles />
       <main>
         <Routes>
           <Route path="/" element={<Landing/>}/>

@@ -2,6 +2,8 @@ import React from "react";
 import author from "../../assets/author.jpg";
 import Icon from "./Icon";
 import "./Landing.css";
+import Particles from "../particles";
+
 
 export default function Landing() {
   const icons = [
@@ -17,6 +19,7 @@ export default function Landing() {
 
   return (
     <div className="landing-container">
+      <Particles />
       <div className="icons-container">
         {icons.map((item) => (
           <Icon key={`icon${item.id}`} icon={item} />

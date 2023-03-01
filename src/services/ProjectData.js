@@ -28,7 +28,7 @@ export const projectData = [
     github: "https://github.com/skwhit/Travel_Destinations_Generator"
   },
   {
-    title: "Messaging Applicationn",
+    title: "Messaging Application",
     description: "React Native application that uses an API for its core functionality. Communicates with the API for user authentication and retrieving and sending messages.",
     link: "https://spencerwhitlow.com/e-commerce-application/",
     image: messagingApp,

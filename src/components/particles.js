@@ -1,5 +1,4 @@
-import React from "react";
-import { useCallback } from "react";
+import React, { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
