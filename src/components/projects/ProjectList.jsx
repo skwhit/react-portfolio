@@ -1,4 +1,3 @@
-import React from "react";
 import { projectData } from "../../services/ProjectData";
 import ProjectCard from "./ProjectCard";
 import "./Projects.css";

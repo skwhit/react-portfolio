@@ -6,7 +6,7 @@ console.log(project)
   const { title, description, link, image, github } = project;
   // const navigate = useNavigate();
   return (
-    <div className="project-card" onClick={setProject(project)}>
+    <div className="project-card" onClick={() => setProject(project)}>
         <h3>
           {title}
         </h3>
