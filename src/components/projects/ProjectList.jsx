@@ -1,9 +1,7 @@
-import { projectData } from "../../services/ProjectData";
 import ProjectCard from "./ProjectCard";
 import "./Projects.css";
 
-function ProjectList({setProject}) {
-  console.log(projectData);
+function ProjectList({projectData, setProject}) {
   return (
     <div className="project-list-container">
       {projectData.map((item) => (
