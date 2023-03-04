@@ -1,18 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Projects.css";
 
 function ProjectCard({ project, setProject }) {
-console.log(project)
-  const { title, description, link, image, github } = project;
   // const navigate = useNavigate();
+
+  const projects = document.body.querySelectorAll(".project-card-title");
+  const selectedProject = "background-color: white; color: black";
+  const defaultProject = "background-color: none; color: white";
+
+  // projects[0].style = selectedProject;
+
+
+  // document.getElementById("project-0").style = selectedProject;
+  useEffect(() => {
+    projects.forEach((project) => (project.style = defaultProject));
+    document.getElementById("project-0").style = selectedProject;
+  }, [])
+
+  const handleClick = (e) => {
+    setProject(project);
+    // console.log(e);
+    projects.forEach((project) => (project.style = defaultProject));
+    e.target.style = selectedProject;
+  };
+
   return (
-    <div className="project-card" onClick={() => setProject(project)}>
-        <h3>
-          {title}
-        </h3>
-      <div className="project-img-container">
+    <div className="project-card">
+      <button id={`project-${project.id}`} className="project-card-title" onClick={handleClick} autoFocus={project.id === 0 ? true : false}>
+        {project.title}
+      </button>
+      {/* <div className="project-img-container">
         <img src={image} alt="project-image" />
-      </div>
+      </div> */}
       {/* <div class="card-container">
         
         <p>{description}</p>

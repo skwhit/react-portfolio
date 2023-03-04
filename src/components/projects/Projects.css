@@ -16,12 +16,14 @@
 .project-list-container {
   width: 20%;
   min-width: 250px;
+  max-width: 300px;
   max-height: calc(100%);
   z-index: 1;
   overflow-y: scroll;
   /* position: absolute; */
   -ms-overflow-style: none;
   scrollbar-width: none;
+  border-right: 2px solid white;
 }
 
 .project-list-container::-webkit-scrollbar {
@@ -29,13 +31,39 @@
 }
 
 .project-card {
-    cursor: pointer;
-    text-align: center;
+  cursor: pointer;
+  /* text-align: center; */
+  margin: 0px 10px;
+  border-bottom: 2px solid white;
+  background-color: none;
+  color: white;
 }
 
-.project-card h3 {
-    color: white;
+/* #project-0 {
+  background-color: white;
+  color: black;
+} */
+
+
+
+.project-card button {
+  /* color: inherit;
+    background-color: inherit; */
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
 }
+
+/* .project-card button:focus {
+  background-color: white;
+  color: black;
+} */
 
 .project-img-container {
   width: 100%;

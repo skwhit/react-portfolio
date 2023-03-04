@@ -5,24 +5,14 @@ import { projectData } from '../../services/ProjectData';
 import ProjectDetail from './ProjectDetail';
 
 function Projects() {
-  const initialState = {
-    title: "",
-    description: "",
-    link: "",
-    image: "",
-    github: ""
-  }
+  const initialState = projectData[0]
   const [project, setProject] = useState(initialState)
 
-  useEffect(() => {
-    console.log(project);
-  },[project])
-  // const [count, setCount] = useState(0)
 
 
   return (
     <section className='projects-container'>
-        <ProjectList setProject={setProject} />
+        <ProjectList setProject={setProject} projectData={projectData} />
         { project.title === "" ? <></> : <ProjectDetail project={project}/>}
         
     </section>

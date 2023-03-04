@@ -6,7 +6,7 @@ export default function ProjectDetail({ project }) {
   const { title, description, link, image, github } = project;
   return (
     <div className="project-detail">
-      <div class="detail-img-container">
+      <div className="detail-img-container">
         <img src={image} alt="Project Image" />
       </div>
     </div>
