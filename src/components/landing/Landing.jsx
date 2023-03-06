@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import author from "../../assets/author.jpg";
 import Icon from "./Icon";
 import "./Landing.css";
@@ -16,6 +16,14 @@ export default function Landing() {
     { index: 6, id: "g", title: "Projects", faClass:"fa-2x fa-solid fa-list-check", link: "/projects" },
     { index: 7, id: "h", title: "Skills", faClass:"fa-2x fa-solid fa-lightbulb", link: "/skills" },
   ];
+
+  useEffect(() => {
+    const nav = document.body.querySelector("nav");
+    nav.classList.add("nav-transparent");
+    return () => {
+      nav.classList.remove("nav-transparent");
+    }
+  },[])
 
   return (
     <div className="landing-container">

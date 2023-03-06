@@ -20,7 +20,7 @@ function ProjectCard({ project, setProject }) {
 
   const handleClick = (e) => {
     setProject(project);
-    // console.log(e);
+    document.getElementById("project-0").style = defaultProject;
     projects.forEach((project) => (project.style = defaultProject));
     e.target.style = selectedProject;
   };

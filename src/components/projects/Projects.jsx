@@ -14,7 +14,6 @@ function Projects() {
     <section className='projects-container'>
         <ProjectList setProject={setProject} projectData={projectData} />
         { project.title === "" ? <></> : <ProjectDetail project={project}/>}
-        
     </section>
   )
 }
