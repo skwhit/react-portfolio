@@ -51,7 +51,7 @@
     height: clamp(500px, 40vw, 1000px);
     width: clamp(500px, 40vw, 1000px);
   position: relative;
-  animation: container-rotate 40s linear infinite;
+  animation: container-rotate 60s linear infinite;
 }
 
 .icons-container:hover {
@@ -94,7 +94,7 @@
   align-items: flex-end;
   border-radius: 50%;
   opacity: 0;
-  animation: icon-rotate 40s linear infinite;
+  animation: icon-rotate 60s linear infinite;
   animation-play-state: inherit;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .icon {
-  animation: icon-rotate 40s linear infinite;
+  animation: icon-rotate 60s linear infinite;
   animation-play-state: inherit;
 }
 
