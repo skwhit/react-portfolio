@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.71b97f72.css",
-    "main.js": "/react-portfolio/static/js/main.ca10d334.js",
+    "main.css": "/react-portfolio/static/css/main.91b17d6e.css",
+    "main.js": "/react-portfolio/static/js/main.263b0d01.js",
     "static/media/travel-destinations-generator.PNG": "/react-portfolio/static/media/travel-destinations-generator.f102455e30f9b9dd37bf.PNG",
     "static/media/react-media-app.PNG": "/react-portfolio/static/media/react-media-app.55699796be186ebe0af5.PNG",
     "static/media/messaging-app-landing.PNG": "/react-portfolio/static/media/messaging-app-landing.b34f08c0f768a385902d.PNG",
@@ -10,11 +10,11 @@
     "static/media/technical-documentation-page.PNG": "/react-portfolio/static/media/technical-documentation-page.8694c698bae8e4f0fb27.PNG",
     "static/media/react-currency-converter.PNG": "/react-portfolio/static/media/react-currency-converter.7cc462c54b08b22caac1.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.71b97f72.css.map": "/react-portfolio/static/css/main.71b97f72.css.map",
-    "main.ca10d334.js.map": "/react-portfolio/static/js/main.ca10d334.js.map"
+    "main.91b17d6e.css.map": "/react-portfolio/static/css/main.91b17d6e.css.map",
+    "main.263b0d01.js.map": "/react-portfolio/static/js/main.263b0d01.js.map"
   },
   "entrypoints": [
-    "static/css/main.71b97f72.css",
-    "static/js/main.ca10d334.js"
+    "static/css/main.91b17d6e.css",
+    "static/js/main.263b0d01.js"
   ]
 }
