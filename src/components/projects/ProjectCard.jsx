@@ -6,7 +6,9 @@ function ProjectCard({ project, setProject }) {
   // const navigate = useNavigate();
 
   const projects = document.body.querySelectorAll(".project-card-title");
-  const selectedProject = "background-color: white; color: black";
+  // const selectedProject = "background-color: #3f3f46; color: white";
+  const selectedProject = "color: #C4A454";
+
   const defaultProject = "background-color: none; color: white";
 
   // projects[0].style = selectedProject;

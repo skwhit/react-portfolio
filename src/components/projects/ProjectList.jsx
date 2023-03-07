@@ -6,7 +6,7 @@ function ProjectList({ projectData, setProject }) {
   return (
     <div className="project-list-container">
       {projectData.map((item) => (
-        <ProjectCard project={item} setProject={setProject} />
+        <ProjectCard key={item.id} project={item} setProject={setProject} />
       ))}
     </div>
   );
