@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.91b17d6e.css",
-    "main.js": "/react-portfolio/static/js/main.263b0d01.js",
-    "static/media/travel-destinations-generator.PNG": "/react-portfolio/static/media/travel-destinations-generator.f102455e30f9b9dd37bf.PNG",
-    "static/media/react-media-app.PNG": "/react-portfolio/static/media/react-media-app.55699796be186ebe0af5.PNG",
-    "static/media/messaging-app-landing.PNG": "/react-portfolio/static/media/messaging-app-landing.b34f08c0f768a385902d.PNG",
-    "static/media/e-commerce-application.PNG": "/react-portfolio/static/media/e-commerce-application.7d5532784da082fe28bd.PNG",
+    "main.css": "/react-portfolio/static/css/main.4c9a27d4.css",
+    "main.js": "/react-portfolio/static/js/main.09104bb3.js",
+    "static/media/travel-destinations-generator.PNG": "/react-portfolio/static/media/travel-destinations-generator.6e27b007e72b26e39208.PNG",
+    "static/media/react-media-app.PNG": "/react-portfolio/static/media/react-media-app.44c3bfd6be56ccdbe427.PNG",
+    "static/media/messaging-app-landing.PNG": "/react-portfolio/static/media/messaging-app-landing.1ca2f799e5960310a8a4.PNG",
+    "static/media/e-commerce-application.PNG": "/react-portfolio/static/media/e-commerce-application.3e5093e619c6916f7052.PNG",
     "static/media/author.jpg": "/react-portfolio/static/media/author.bc9515ae2d9da5325cd1.jpg",
     "static/media/technical-documentation-page.PNG": "/react-portfolio/static/media/technical-documentation-page.8694c698bae8e4f0fb27.PNG",
-    "static/media/react-currency-converter.PNG": "/react-portfolio/static/media/react-currency-converter.7cc462c54b08b22caac1.PNG",
+    "static/media/react-currency-converter.PNG": "/react-portfolio/static/media/react-currency-converter.c34629efd67d0680e2e1.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.91b17d6e.css.map": "/react-portfolio/static/css/main.91b17d6e.css.map",
-    "main.263b0d01.js.map": "/react-portfolio/static/js/main.263b0d01.js.map"
+    "main.4c9a27d4.css.map": "/react-portfolio/static/css/main.4c9a27d4.css.map",
+    "main.09104bb3.js.map": "/react-portfolio/static/js/main.09104bb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.91b17d6e.css",
-    "static/js/main.263b0d01.js"
+    "static/css/main.4c9a27d4.css",
+    "static/js/main.09104bb3.js"
   ]
 }
