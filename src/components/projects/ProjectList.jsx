@@ -1,6 +1,5 @@
 import ProjectCard from "./ProjectCard";
 import "./Projects.css";
-import Slider from "../slider/Slider";
 
 function ProjectList({ projectData, setProject }) {
   return (

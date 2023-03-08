@@ -17,7 +17,6 @@ export default function Navbar() {
       <div className="nav-list">
         <NavLink style={navLinkStyles} className="nav-link" to="/">Home</NavLink>
         <NavLink style={navLinkStyles} className="nav-link" to="/projects">Projects</NavLink>
-        <NavLink style={navLinkStyles} className="nav-link" to="/skills">Skills</NavLink>
         <NavLink style={navLinkStyles} className="nav-link" to="/resume">Resume</NavLink>
       </div>
     </nav>
