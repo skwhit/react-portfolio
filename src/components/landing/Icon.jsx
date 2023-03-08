@@ -13,13 +13,14 @@ export default function Icon({ icon }) {
   };
 
   return (
-    <div className={`icon-container icon-${icon.id}`} onClick={handleClick}>
+    <button className={`icon-container icon-${icon.id}`} onClick={handleClick}>
       <p className="icon">
         <i className={icon.faClass}></i>
+        <p>{icon.title}</p>
       </p>
       <div className="icon-title">
-        <p>{icon.title}</p>
+        {/* <p>{icon.title}</p> */}
       </div>
-    </div>
+    </button>
   );
 }

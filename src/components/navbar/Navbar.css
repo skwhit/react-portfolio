@@ -6,6 +6,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+  gap: 10px;
 }
 
 .nav-list {
@@ -16,7 +17,7 @@ nav {
 
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: #797979;
   font-weight: bold;
   font-size: 1.1rem;
 }
@@ -27,3 +28,72 @@ nav {
   background-color: #c4ced5a0;
   box-shadow: 0px 0px 10px 10px #c4ced5a0;
 }
+
+.hamburger {
+  display: hidden;
+}
+
+.bar {
+  display: hidden;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-list.active {
+  right: 0;
+  top: 0;
+}
+
+@media (max-width: 600px) {
+
+  nav {
+    padding: 0 5px;
+  }
+  nav h1 {
+    width: 250px;
+  }
+  .nav-list {
+    position: absolute;
+    /* z-index: 99999; */
+    right: -100%;
+    background-color: white;
+    flex-direction: column;
+    width: 150px;
+    border-radius: 0 0 0 5px;
+    gap: 10px;
+    padding: 20px 10px;
+    /* height: 100vh; */
+    justify-content: flex-start;
+    transition: .3s ease;
+  }
+  .hamburger {
+    display: block;
+    padding: 0.5rem;
+    position: fixed;
+    right: 0;
+    color: black;
+    z-index: 99;
+  }
+  .bar {
+    display: block;
+  
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+}
+
+
+
+

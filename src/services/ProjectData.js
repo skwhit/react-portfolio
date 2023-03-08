@@ -45,7 +45,7 @@ export const projectData = [
       "Utilizes a constructor to initialize a set of objects where data is stored.",
       "Each object is stored in an array for use in the application.",
       "Math.random() method used to generate the random destination.",
-      "Each destination displays an image and links to corrsponding google maps, hotels, and flights.",
+      "Each destination displays an image and links to corresponding google maps, hotels, and flights.",
       "Written using vanilla JavaScript (no libraries).",
     ],
     link: "https://spencerwhitlow.com/Travel_Destinations_Generator/",

@@ -13,8 +13,8 @@
 .author-container {
   border-radius: 50%;
 
-  height: clamp(250px, 20vw, 500px);
-  width: clamp(250px, 20vw, 500px);
+  height: clamp(250px, 17vw, 500px);
+  width: clamp(250px, 17vw, 500px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,10 +51,14 @@
     height: clamp(500px, 40vw, 1000px);
     width: clamp(500px, 40vw, 1000px);
   position: relative;
-  animation: container-rotate 60s linear infinite;
+  animation: container-rotate 120s linear infinite;
 }
 
 .icons-container:hover {
+  animation-play-state: paused;
+}
+
+.icons-container:focus {
   animation-play-state: paused;
 }
 
@@ -68,38 +72,48 @@
 }
 
 .icon-container {
-  height: clamp(50px, 7vw, 80px);
-  width: clamp(50px, 7vw, 80px);
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   padding: 10px;
-  background-color: rgb(75, 115, 195);
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   animation-play-state: inherit;
+  cursor: pointer;
+  /* font-weight: bold; */
+  outline-color: transparent;
+  border: none;
+  background-color: #c4ced5a0;
+  box-shadow: 0px 0px 20px 10px #c4ced5a0;
 }
 
-.icon-title {
+.icon-container:focus {
+  outline-color: black;
+}
+
+/* .icon-title {
   height: inherit;
   width: inherit;
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, 50%); */
-  /* background: linear-gradient(#335C67,white); */
-  /* background-color: #ffffffa6; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: linear-gradient(#335C67,white);
+  background-color: #ffffffa6;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   border-radius: 50%;
-  opacity: 0;
+  opacity: 1;
   animation: icon-rotate 60s linear infinite;
   animation-play-state: inherit;
-}
+} */
 
 .icon-title:hover {
-  opacity: 1;
+  /* opacity: 1; */
   cursor: pointer;
   /* border: 2px solid black; */
 }
@@ -115,8 +129,16 @@
 }
 
 .icon {
-  animation: icon-rotate 60s linear infinite;
+  animation: icon-rotate 120s linear infinite;
   animation-play-state: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  /* color: rgb(51, 51, 86); */
+  /* font-weight: bold; */
+  font-size: 1rem;
 }
 
 @keyframes icon-rotate {
@@ -132,47 +154,68 @@
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(#335c67, white);
+  /* background: linear-gradient(#335c67, white); */
 }
 .icon-b {
   top: 21.5%;
   right: 21.5%;
   transform: translate(50%, -50%);
-  background: linear-gradient(#f79d65, white);
+  /* background: linear-gradient(#f79d65, white); */
 }
 .icon-c {
   top: 50%;
   right: 10%;
   transform: translate(50%, -50%);
-  background: linear-gradient(#84b5c2, white);
+  /* background: linear-gradient(#84b5c2, white); */
 }
 .icon-d {
   top: 77.5%;
   right: 21.5%;
   transform: translate(50%, -50%);
-  background: linear-gradient(#cb904d, white);
+  /* background: linear-gradient(#cb904d, white); */
 }
 .icon-e {
   top: 90%;
   right: 50%;
   transform: translate(50%, -50%);
-  background: linear-gradient(#335c67, white);
+  /* background: linear-gradient(#335c67, white); */
 }
 .icon-f {
   top: 77.5%;
   right: 77.5%;
   transform: translate(50%, -50%);
-  background: linear-gradient(#f79d65, white);
+  /* background: linear-gradient(#f79d65, white); */
 }
 .icon-g {
   top: 50%;
   right: 90%;
   transform: translate(50%, -50%);
-  background: linear-gradient(#84b5c2, white);
+  /* background: linear-gradient(#84b5c2, white); */
 }
 .icon-h {
   top: 21.5%;
   right: 77.5%;
   transform: translate(50%, -50%);
-  background: linear-gradient(#cb904d, white);
+  /* background: linear-gradient(#cb904d, white); */
+}
+
+@media (max-width: 600px) {
+  .icon-container {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icons-container {
+    height: clamp(300px, 90vw, 700px);
+    width: clamp(300px, 90vw, 700px);
+  }
+
+  .author-container {
+    height: clamp(140px, 30vw, 300px);
+    width: clamp(140px, 30vw, 300px);
+  }
+
+  .icon {
+    font-size: .7rem;
+  }
 }
