@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
+  const [active, setActive] = useState(false)
+
+
   const navLinkStyles = ({ isActive }) => {
     return { color: isActive ? "black" : "#808080" };
   };
@@ -11,15 +14,20 @@ export default function Navbar() {
   const navMenu = document.querySelector(".nav-list");
 
   //hamburger menu toggled between visible and hidden. Used to navigate around the website
-  const hamburgerClick = () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-  };
+  // const hamburgerClick = () => {
+  //   hamburger.classList.toggle("active");
+  //   navMenu.classList.toggle("active");
+  // };
 
   //When a nav item is clicked, hamburger menu will automatically return to being hidden
+  
+
+  const hamburgerClick = ()=> {
+    setActive((active)=>!active);
+  }
+
   const navlinkClick = ()=>{
-    hamburger.classList.remove("active");
-      navMenu.classList.remove("active");
+    setActive(false);
   }
 
   return (
@@ -28,14 +36,14 @@ export default function Navbar() {
         <h1>Spencer Whitlow, Software Developer</h1>
       </div>
       <div
-        className="hamburger"
+        className={`hamburger${active ? " active": ""}`}
         onClick={hamburgerClick}
       >
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <div className="nav-list">
+      <div className={`nav-list${active ? " active": ""}`}>
         <NavLink onClick={navlinkClick} style={navLinkStyles} className="nav-link" to="/">
           Home
         </NavLink>
