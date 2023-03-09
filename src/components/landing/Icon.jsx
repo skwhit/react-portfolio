@@ -14,10 +14,10 @@ export default function Icon({ icon }) {
 
   return (
     <button className={`icon-container icon-${icon.id}`} onClick={handleClick}>
-      <p className="icon">
+      <div className="icon">
         <i className={icon.faClass}></i>
         <p>{icon.title}</p>
-      </p>
+      </div>
       <div className="icon-title">
         {/* <p>{icon.title}</p> */}
       </div>

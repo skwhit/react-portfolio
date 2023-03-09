@@ -91,7 +91,8 @@
 }
 
 .detail-one {
-  width: 55%;
+  width: 60%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -100,7 +101,8 @@
 }
 
 .detail-two {
-  width: 45%;
+  width: 40%;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -161,6 +163,15 @@
 .detail-width-change {
   width: 100%;
 }
+
+@media (min-width: 2000px) {
+  .project-detail {
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1%;
+  }
+}
+
 
 @media (max-width: 1200px) {
   .projects-container {
