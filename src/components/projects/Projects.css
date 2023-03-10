@@ -123,6 +123,7 @@
   width: 100%;
   display: flex;
   gap: 2px;
+  color: black;
 }
 .detail-links button {
   display: flex;
@@ -211,7 +212,7 @@
     max-width: 100%;
     /* max-height: calc(100%); */
     /* position: relative; */
-    z-index: 99;
+    /* z-index: 99; */
     flex-direction: row;
     align-items: flex-start;
     /* -ms-overflow-style: visible;

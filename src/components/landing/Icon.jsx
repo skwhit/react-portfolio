@@ -7,7 +7,7 @@ export default function Icon({ icon }) {
   const handleClick = () => {
     icon.title === "Email"
       ? window.open(icon.link, "emailWindow")
-      : icon.index < 5
+      : icon.index < 6
       ? window.open(icon.link, "_blank")
       : navigate(icon.link);
   };
