@@ -17,12 +17,12 @@
     color: black;
     font-weight: bold;
     font-size: 1.2rem;
-    background-color: white;
+    background-color: #c4ced5;
     outline: none;
 }
 
 .slider button:hover {
-    background-color: #e3e3e3;
+    background-color: #9facb5;
 }
 
 .slider-active {

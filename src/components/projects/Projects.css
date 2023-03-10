@@ -57,7 +57,7 @@
   height: 100%;
   width: 100%;
   padding: 20px;
-  outline: none;
+  outline-color: transparent;
   border: none;
   background: none;
   font-weight: bold;
@@ -65,6 +65,10 @@
   color: white;
   cursor: pointer;
 
+}
+
+.project-card button:focus {
+  z-index: 99;
 }
 
 /* .project-card button:focus {
@@ -133,7 +137,7 @@
   gap: 10px;
   border: none;
   border-top: none;
-  outline: none;
+  outline-color: transparent;
   background-color: #c4ced5;
   font-weight: bold;
   font-size: 1rem;
