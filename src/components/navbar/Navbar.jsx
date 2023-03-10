@@ -50,7 +50,10 @@ export default function Navbar() {
         <NavLink onClick={navlinkClick} style={navLinkStyles} className="nav-link" to="/projects">
           Projects
         </NavLink>
-        <NavLink onClick={navlinkClick} style={navLinkStyles} className="nav-link" to="/resume">
+        <NavLink onClick={navlinkClick} style={navLinkStyles} className="nav-link" to="/skills">
+          Skills
+        </NavLink>
+        <NavLink onClick={navlinkClick} style={navLinkStyles} className="nav-link" to="https://drive.google.com/file/d/1JSiqv9WfHZpRUBRttnIQOZfTDlibzai7/view?usp=sharing" target="_blank">
           Resume
         </NavLink>
       </div>

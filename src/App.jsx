@@ -2,7 +2,7 @@ import "./App.css";
 import Projects from "./components/projects/Projects";
 import Landing from "./components/landing/Landing";
 import Navbar from "./components/navbar/Navbar";
-import Resume from "./components/resume/Resume";
+import Skills from "./components/skills/Skills";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing/>}/>
           <Route path="/projects" element={<Projects/>}/>
-          <Route path="/resume" element={<Resume/>}/>
+          <Route path="/skills" element={<Skills/>}/>
         </Routes>
         
         {/* <ProjectList/> */}

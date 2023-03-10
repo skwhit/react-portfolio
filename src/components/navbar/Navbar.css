@@ -18,7 +18,7 @@ nav {
 .nav-list {
   display: flex;
   justify-content: space-between;
-  width: 280px;
+  width: 350px;
 }
 
 .nav-link {
@@ -79,6 +79,7 @@ nav {
     /* height: 100vh; */
     justify-content: flex-start;
     transition: .3s ease;
+    /* z-index: 1000; */
   }
   .hamburger {
     display: block;

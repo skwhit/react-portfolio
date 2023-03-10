@@ -12,7 +12,7 @@ export default function Landing() {
     { index: 2, id: "c", title: "Email", faClass:"fa-2x fa-solid fa-envelope", link: "mailto:whitlowspencer@gmail.com" },
     { index: 3, id: "d", title: "Certificates", faClass:"fa-2x fa-solid fa-stamp", link: "https://www.freecodecamp.org/fcc81b6486a-c630-4253-9f63-167dc023f2c3" },
     { index: 4, id: "e", title: "Codepen", faClass:"fa-2x fa-brands fa-codepen", link: "https://codepen.io/spencer-whitlow" },
-    { index: 5, id: "f", title: "Resume", faClass:"fa-2x fa-solid fa-file", link: "/resume" },
+    { index: 5, id: "f", title: "Resume", faClass:"fa-2x fa-solid fa-file", link: "https://drive.google.com/file/d/1JSiqv9WfHZpRUBRttnIQOZfTDlibzai7/view?usp=sharing" },
     { index: 6, id: "g", title: "Projects", faClass:"fa-2x fa-solid fa-list-check", link: "/projects" },
     { index: 7, id: "h", title: "Skills", faClass:"fa-2x fa-solid fa-lightbulb", link: "/skills" },
   ];
