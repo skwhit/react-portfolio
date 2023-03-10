@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.822e36bf.css",
+    "main.css": "/react-portfolio/static/css/main.68ccd385.css",
     "main.js": "/react-portfolio/static/js/main.d1430c4a.js",
     "static/media/travel-destinations-generator.PNG": "/react-portfolio/static/media/travel-destinations-generator.6e27b007e72b26e39208.PNG",
     "static/media/react-media-app.PNG": "/react-portfolio/static/media/react-media-app.44c3bfd6be56ccdbe427.PNG",
@@ -10,11 +10,11 @@
     "static/media/react-currency-converter.PNG": "/react-portfolio/static/media/react-currency-converter.c34629efd67d0680e2e1.PNG",
     "static/media/calculator-app.PNG": "/react-portfolio/static/media/calculator-app.39dc24289115ff7a51ad.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.822e36bf.css.map": "/react-portfolio/static/css/main.822e36bf.css.map",
+    "main.68ccd385.css.map": "/react-portfolio/static/css/main.68ccd385.css.map",
     "main.d1430c4a.js.map": "/react-portfolio/static/js/main.d1430c4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.822e36bf.css",
+    "static/css/main.68ccd385.css",
     "static/js/main.d1430c4a.js"
   ]
 }
