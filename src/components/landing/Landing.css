@@ -52,6 +52,7 @@
     width: clamp(500px, 40vw, 1000px);
   position: relative;
   animation: container-rotate 120s linear infinite;
+  /* border: 2px solid black; */
 }
 
 .icons-container:hover {

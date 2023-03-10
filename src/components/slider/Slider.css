@@ -29,3 +29,9 @@
     left: .4%;
 }
 
+@media (max-width: 1200px) {
+    .slider {
+        display: none
+    }
+}
+
