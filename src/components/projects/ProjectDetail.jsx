@@ -29,7 +29,7 @@ export default function ProjectDetail({ project }) {
       <div className="detail-two">
         <ul className="detail-list">
           {description.map((item) => (
-            <li>{item}</li>
+            <li key={`${description.indexOf(item)}`}>{item}</li>
           ))}
         </ul>
       </div>

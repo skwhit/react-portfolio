@@ -6,7 +6,7 @@ import "./Skills.css";
 export default function SkillList() {
   return (
     <section className='skill-list'>
-    {skillData.map((skill) => <SkillIcon skill={skill} />)}
+    {skillData.map((skill) => <SkillIcon key={`${skillData.indexOf(skill)}`} skill={skill} />)}
     </section>
   )
 }
