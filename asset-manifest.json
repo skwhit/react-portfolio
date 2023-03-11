@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cdcb13b4.css",
-    "main.js": "/static/js/main.9a7f3af9.js",
+    "main.js": "/static/js/main.b3f2279b.js",
     "static/media/travel-destinations-generator.PNG": "/static/media/travel-destinations-generator.6e27b007e72b26e39208.PNG",
     "static/media/react-media-app.PNG": "/static/media/react-media-app.44c3bfd6be56ccdbe427.PNG",
     "static/media/messaging-app-landing.PNG": "/static/media/messaging-app-landing.1ca2f799e5960310a8a4.PNG",
@@ -11,10 +11,10 @@
     "static/media/calculator-app.PNG": "/static/media/calculator-app.39dc24289115ff7a51ad.PNG",
     "index.html": "/index.html",
     "main.cdcb13b4.css.map": "/static/css/main.cdcb13b4.css.map",
-    "main.9a7f3af9.js.map": "/static/js/main.9a7f3af9.js.map"
+    "main.b3f2279b.js.map": "/static/js/main.b3f2279b.js.map"
   },
   "entrypoints": [
     "static/css/main.cdcb13b4.css",
-    "static/js/main.9a7f3af9.js"
+    "static/js/main.b3f2279b.js"
   ]
 }
