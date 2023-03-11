@@ -8,7 +8,7 @@ import calculatorApp from "../assets/calculator-app.PNG";
 
 export const projectData = [
   {
-    title: "E Commerce Application",
+    title: "E-Commerce Application",
     description: [
       "Online store application created with React.",
       "Fetches data from the API using a get request.",
